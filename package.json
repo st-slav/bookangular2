@@ -1,0 +1,37 @@
+{
+  "name": "learninng-angular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --open",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^5.2.5",
+    "@angular/compiler": "^5.2.5",
+    "@angular/core": "^5.2.5",
+    "@angular/forms": "^5.2.5",
+    "@angular/platform-browser": "^5.2.5",
+    "@angular/platform-browser-dynamic": "^5.2.5",
+    "@angular/router": "^5.2.5",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
+  },
+
+  "devDependencies": {
+    "angular-ide": "^0.9.39",
+    "@types/node": "^9.4.6",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.4.1",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
+
+
