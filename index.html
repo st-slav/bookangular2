@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <title>Hello Angular 2!</title>
 	<meta name="viewport" content="width=device-width, init-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <hello-angular>Загрузка...</hello-angular>
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header"><strong class="navbar-brand">My Pomodoro Timer</strong></div>
+		</div>
+	</nav>
+    <pomodoro-timer>Загрузка...</pomodoro-timer>
     <script src="built/polyfills.js"></script>
     <script src="built/app.js"></script>
 </body>

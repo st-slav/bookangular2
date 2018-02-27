@@ -41,6 +41,6 @@ module.exports = {
             name: ['app', 'polyfills']
         }),
         // минифицирует код сборок
-        //new UglifyJSPlugin() 
+        // new UglifyJSPlugin() 
   ]
 }
