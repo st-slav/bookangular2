@@ -26,7 +26,11 @@ module.exports = {
                     },
                    'angular2-template-loader'
                ]               
-            }
+            },
+			{
+				test: /\.css$/,
+				use: ['style-loader', 'css-loader']
+			}
         ]
     },
     plugins: [
