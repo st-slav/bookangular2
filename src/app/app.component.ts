@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
 @Component({
   selector: 'pomodoro-timer',
   template: `<div class="text-center">
-              <img src="img/tamato.png" width=20% alt="Pomodoro">
+              <img src="img/tomato.png" width=20% alt="Pomodoro">
               <h1>{{ minutes }}:{{ seconds | number: '2.0' }}</h1>
               <p>
                 <button (click)="togglePause()" class="btn btn-danger">{{ buttonLabel }}</button>
