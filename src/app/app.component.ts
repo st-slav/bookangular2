@@ -8,7 +8,8 @@ import {Component} from '@angular/core';
               <p>
                 <button (click)="togglePause()" class="btn btn-danger">{{ buttonLabel }}</button>
               </p>
-            </div>`
+            </div>`,
+  styleUrls: ['./app.component.css']
 })
 
 export class AppComponent {

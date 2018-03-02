@@ -29,8 +29,19 @@ module.exports = {
             },
 			{
 				test: /\.css$/,
-				use: ['style-loader', 'css-loader']
-			}
+				loaders: ['style-loader', 'css-loader'],
+            	include: [/node_modules/]
+			},
+			{
+				test: /\.css$/,
+				use: ['to-string-loader', 'css-loader'],
+				exclude: [/node_modules/]
+			},
+			/*{
+				test: /\.css$/,
+				includes: [path.resolve(__dirname, 'src/app'), 'bootstrap/dist/css/bootstrap.min.css'],
+				loader: 'raw-loader'
+			}*/
         ]
     },
     plugins: [
